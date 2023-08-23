@@ -6,9 +6,9 @@ function remClasses() {
     })
 }
 
-panel.forEach(panel => {
-    panel.addEventListener('click', () => {
+panel.forEach(element => {
+    element.addEventListener('click', () => {
         remClasses()
-        panel.classList.add('panel-active')
+        element.classList.add('panel-active')
     })
 })
